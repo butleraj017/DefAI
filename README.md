@@ -34,7 +34,7 @@ Security:
 
 If you are reading this, you most likely downloaded DefAI directly from GitHub. For the safety and security of your device, we advise you verify the downloaded zip’s hash signature and compare it with the signature on GitHub. 
 
-Original file SHA-256 hash: 
+Original file SHA-256 hash: F50BE103D5C8BEB8C9C6FA2C50CD0F766D6FFE0A251F35AEA4383171F2B1719D
 
 Here are steps to verify the hash of the file you downloaded. 
 
@@ -46,7 +46,7 @@ cd C:\Users\*Yourname*\Downloads (example)
 
 Use Get-FileHash  
 
-Get-FileHash *yourfile* (example) 
+Get-FileHash -Algorithm SHA256 .\DefAI_Download.zip (example) 
 
 If the produced SHA-256 hash matches the one above, your download is legitimate. 
 
